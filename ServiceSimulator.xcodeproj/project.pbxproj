@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E40D728F2354697C00D6DFED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E40D728E2354697C00D6DFED /* AppDelegate.m */; };
+		E40D72922354697C00D6DFED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40D72912354697C00D6DFED /* ViewController.m */; };
+		E40D72942354697E00D6DFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40D72932354697E00D6DFED /* Assets.xcassets */; };
+		E40D72972354697E00D6DFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40D72952354697E00D6DFED /* Main.storyboard */; };
+		E40D729A2354697E00D6DFED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E40D72992354697E00D6DFED /* main.m */; };
+		E40D72B123546D0B00D6DFED /* ServiceCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E40D72B023546D0B00D6DFED /* ServiceCommunicator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E40D728A2354697C00D6DFED /* ServiceSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServiceSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40D728D2354697C00D6DFED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E40D728E2354697C00D6DFED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E40D72902354697C00D6DFED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E40D72912354697C00D6DFED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E40D72932354697E00D6DFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E40D72962354697E00D6DFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E40D72982354697E00D6DFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40D72992354697E00D6DFED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E40D729B2354697E00D6DFED /* ServiceSimulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ServiceSimulator.entitlements; sourceTree = "<group>"; };
+		E40D72AF23546D0B00D6DFED /* ServiceCommunicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceCommunicator.h; sourceTree = "<group>"; };
+		E40D72B023546D0B00D6DFED /* ServiceCommunicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceCommunicator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40D72872354697C00D6DFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E40D72812354697C00D6DFED = {
+			isa = PBXGroup;
+			children = (
+				E40D728C2354697C00D6DFED /* ServiceSimulator */,
+				E40D728B2354697C00D6DFED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E40D728B2354697C00D6DFED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40D728A2354697C00D6DFED /* ServiceSimulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40D728C2354697C00D6DFED /* ServiceSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				E40D728D2354697C00D6DFED /* AppDelegate.h */,
+				E40D728E2354697C00D6DFED /* AppDelegate.m */,
+				E40D72902354697C00D6DFED /* ViewController.h */,
+				E40D72912354697C00D6DFED /* ViewController.m */,
+				E40D72AF23546D0B00D6DFED /* ServiceCommunicator.h */,
+				E40D72B023546D0B00D6DFED /* ServiceCommunicator.m */,
+				E40D72932354697E00D6DFED /* Assets.xcassets */,
+				E40D72952354697E00D6DFED /* Main.storyboard */,
+				E40D72982354697E00D6DFED /* Info.plist */,
+				E40D72992354697E00D6DFED /* main.m */,
+				E40D729B2354697E00D6DFED /* ServiceSimulator.entitlements */,
+			);
+			path = ServiceSimulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E40D72892354697C00D6DFED /* ServiceSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40D72A92354697F00D6DFED /* Build configuration list for PBXNativeTarget "ServiceSimulator" */;
+			buildPhases = (
+				E40D72862354697C00D6DFED /* Sources */,
+				E40D72872354697C00D6DFED /* Frameworks */,
+				E40D72882354697C00D6DFED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServiceSimulator;
+			productName = ServiceSimulator;
+			productReference = E40D728A2354697C00D6DFED /* ServiceSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40D72822354697C00D6DFED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Marin Kajtazi";
+				TargetAttributes = {
+					E40D72892354697C00D6DFED = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = E40D72852354697C00D6DFED /* Build configuration list for PBXProject "ServiceSimulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E40D72812354697C00D6DFED;
+			productRefGroup = E40D728B2354697C00D6DFED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40D72892354697C00D6DFED /* ServiceSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40D72882354697C00D6DFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40D72942354697E00D6DFED /* Assets.xcassets in Resources */,
+				E40D72972354697E00D6DFED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40D72862354697C00D6DFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40D72922354697C00D6DFED /* ViewController.m in Sources */,
+				E40D729A2354697E00D6DFED /* main.m in Sources */,
+				E40D72B123546D0B00D6DFED /* ServiceCommunicator.m in Sources */,
+				E40D728F2354697C00D6DFED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E40D72952354697E00D6DFED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40D72962354697E00D6DFED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40D72A72354697F00D6DFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E40D72A82354697F00D6DFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E40D72AA2354697F00D6DFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ServiceSimulator/ServiceSimulator.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ServiceSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ServiceSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E40D72AB2354697F00D6DFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ServiceSimulator/ServiceSimulator.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ServiceSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ServiceSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40D72852354697C00D6DFED /* Build configuration list for PBXProject "ServiceSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40D72A72354697F00D6DFED /* Debug */,
+				E40D72A82354697F00D6DFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40D72A92354697F00D6DFED /* Build configuration list for PBXNativeTarget "ServiceSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40D72AA2354697F00D6DFED /* Debug */,
+				E40D72AB2354697F00D6DFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40D72822354697C00D6DFED /* Project object */;
+}
